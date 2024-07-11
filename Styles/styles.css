@@ -9,6 +9,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 100px;
+    margin-left: 100px;
 }
 
 .navbar h1 {
@@ -34,9 +36,10 @@ body {
 }
 
 .nav-title a:hover{
-    background-color: tomato; 
+    background-color: #fff; 
     padding: 10px;
     border-radius: 10px;
+    color: #000;
 }
 
 .nav-title li, a:active {
@@ -54,4 +57,113 @@ body {
     color: white;
     font-weight: bold;
     border: none;
+}
+
+/* ........................ title description.................. */
+
+.title-name {
+    display:flex;
+    /* align-items:center; */
+    justify-content: space-around;
+    /* margin-right: 400px; */
+}
+
+.title-name {
+    color: #fff;
+}
+
+.title-description h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.title-description span {
+    color: tomato;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.title-description p {
+    /* font-size: 18px; */
+    line-height: 28px;
+}
+
+.bttn {
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 38px;
+    border-radius: 15px;
+}
+
+.bttn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.log-in {
+    background-color: black;
+    box-shadow: ;
+    padding: 28px;
+    border-radius: 10px;
+    line-height: 25px;
+}
+
+.log-in h2 {
+    background-color:#fff;
+    color: tomato;
+    font-size: 18px;
+    text-align:center;
+    border-radius: 8px;
+    padding: 8px;
+
+}
+
+.log-in input {
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid tomato;
+    color: #fff;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.form-btn {
+    background-color: tomato;
+    padding: 9px 80px;
+    border-radius: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.paragraph {
+    text-align: center
+}
+
+.paragraph a {
+    color: tomato;
+    text-decoration: none;
+}
+
+.paragraph i {
+    padding: 8px;
+    font-size: 25px;
+    cursor: pointer;
+    transition:  transform 1s;
+}
+
+.paragraph i:hover {
+    background-color: tomato;
+    border-radius: 15px;
+    transform: rotate(360deg);
 }
