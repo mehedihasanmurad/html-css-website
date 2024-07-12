@@ -59,6 +59,13 @@ body {
     border: none;
 }
 
+.search .btn:hover {
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
 /* ........................ title description.................. */
 
 .title-name {
@@ -130,6 +137,7 @@ body {
     color: #fff;
     padding: 10px;
     overflow: hidden;
+    outline: none;
 }
 
 .form-btn {
